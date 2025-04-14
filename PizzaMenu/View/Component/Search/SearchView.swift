@@ -7,15 +7,13 @@
 
 import UIKit
 
-
 class SearchView : UITableViewHeaderFooterView{
-  
+    
     @IBOutlet weak var searchBar: UISearchBar!{
         didSet{
             searchBar.searchTextField.backgroundColor = .clear
         }
     }
-
     
     var isEditingActive: Bool = false {
         didSet {

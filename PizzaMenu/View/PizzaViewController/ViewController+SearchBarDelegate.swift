@@ -33,7 +33,7 @@ extension ViewController: UISearchBarDelegate {
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.text = ""
+        searchBar.text?.removeAll()
         viewModel.updateModel(with: searchBar.text)
         viewModel.toggleEditingStatus(false)
         searchBar.resignFirstResponder()

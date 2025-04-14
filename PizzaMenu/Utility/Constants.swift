@@ -19,6 +19,7 @@ enum StringConstants {
     static let CANCEL = "Cancel"
     static let SEARCH = "Search"
     static let ITEMS = "items"
+    static let Default_Configuration = "Default Configuration"
 }
 
 enum ImageConstant {
@@ -36,9 +37,9 @@ enum FileFormat: String{
 }
 
 enum Identifier {
-    static let CategoryCollectionViewCell =  "CategoryCollectionViewCell"
+    static let categoryCollectionViewCell =  "CategoryCollectionViewCell"
     static let searchView =  "SearchView"
-    static let CategoryTableViewCell =  "CategoryTableViewCell"
-    static let ItemListTableViewCell = "ItemListTableViewCell"
+    static let categoryTableViewCell =  "CategoryTableViewCell"
+    static let itemListTableViewCell = "ItemListTableViewCell"
 }
 

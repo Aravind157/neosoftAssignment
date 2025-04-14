@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var floatingButton: UIButton!
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         setUpUI()
     }
     
-    func setUpUI(){
+    private func setUpUI(){
         //MARK: - Register completion to reload tableview
         viewModel.reloadData = {[weak self] animation in
             self?.reloadData(with: animation)
@@ -34,13 +34,13 @@ class ViewController: UIViewController {
         reloadData()
     }
     
-    func registerCell(){
-        tableView.register(UINib(nibName:Identifier.CategoryTableViewCell, bundle: nil), forCellReuseIdentifier: Identifier.CategoryTableViewCell)
+    private func registerCell(){
+        tableView.register(UINib(nibName:Identifier.categoryTableViewCell, bundle: nil), forCellReuseIdentifier: Identifier.categoryTableViewCell)
         tableView.register(UINib(nibName: Identifier.searchView, bundle: nil), forHeaderFooterViewReuseIdentifier:Identifier.searchView)
-        tableView.register(UINib(nibName: Identifier.ItemListTableViewCell, bundle: nil), forCellReuseIdentifier: Identifier.ItemListTableViewCell)
+        tableView.register(UINib(nibName: Identifier.itemListTableViewCell, bundle: nil), forCellReuseIdentifier: Identifier.itemListTableViewCell)
     }
     
-    func reloadData(with animation: Bool  = false){
+     func reloadData(with animation: Bool  = false){
         if animation {
             DispatchQueue.main.async {
                 UIView.animate(withDuration: 0.2) {
@@ -61,7 +61,7 @@ extension ViewController {
         
         let viewControllerToPresent = BottomSheetViewController()
         viewControllerToPresent.categoryName = viewModel.getSelectedCategoryName()
-        viewControllerToPresent.itemsCount = viewModel.getFilteredData().count 
+        viewControllerToPresent.itemsCount = viewModel.getFilteredData().count
         viewControllerToPresent.dict = viewModel.topThreeCharacters
         
         if let sheet = viewControllerToPresent.sheetPresentationController {
@@ -88,7 +88,7 @@ extension ViewController {
         // Present the view controller
         present(viewControllerToPresent, animated: true, completion: nil)
     }
-
+    
 }
 
 

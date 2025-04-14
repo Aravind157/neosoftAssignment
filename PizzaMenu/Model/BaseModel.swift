@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Foundation
 
 struct BaseModel: Codable {
     var data : DataModel?

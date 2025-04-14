@@ -27,7 +27,7 @@ class CategoryTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        collectionView.register(UINib(nibName: Identifier.CategoryCollectionViewCell, bundle: nil), forCellWithReuseIdentifier: Identifier.CategoryCollectionViewCell)
+        collectionView.register(UINib(nibName: Identifier.categoryCollectionViewCell, bundle: nil), forCellWithReuseIdentifier: Identifier.categoryCollectionViewCell)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -43,11 +43,11 @@ extension CategoryTableViewCell : UICollectionViewDelegate,UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifier.CategoryCollectionViewCell, for: indexPath) as! CategoryCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifier.categoryCollectionViewCell, for: indexPath) as! CategoryCollectionViewCell
         cell.category = categories?[indexPath.item]
         return cell
     }
-
+    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.height)

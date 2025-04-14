@@ -1,13 +1,12 @@
 //
-//  Constants.swift
+//  UIimage+Extension.swift
 //  PizzaMenu
 //
-//  Created by aravind  yadav on 09/04/25.
+//  Created by aravind  yadav on 14/04/25.
 //
 
-
+import Foundation
 import UIKit
-
 extension UIImageView {
     
     private func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {

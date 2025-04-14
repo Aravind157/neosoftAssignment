@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OWn-dJ-vaH">
-                        <rect key="frame" x="25" y="5" width="256" height="254"/>
+                        <rect key="frame" x="10" y="5" width="286" height="254"/>
                     </imageView>
                 </subviews>
             </view>
@@ -25,9 +25,9 @@
             <color key="backgroundColor" red="0.94509803920000002" green="0.98039215690000003" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="OWn-dJ-vaH" secondAttribute="bottom" constant="5" id="2ee-Ra-HGw"/>
-                <constraint firstItem="OWn-dJ-vaH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="25" id="hca-Sp-i1w"/>
+                <constraint firstItem="OWn-dJ-vaH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="hca-Sp-i1w"/>
                 <constraint firstItem="OWn-dJ-vaH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ncH-Br-FWh"/>
-                <constraint firstAttribute="trailing" secondItem="OWn-dJ-vaH" secondAttribute="trailing" constant="25" id="yaB-Fs-GDz"/>
+                <constraint firstAttribute="trailing" secondItem="OWn-dJ-vaH" secondAttribute="trailing" constant="10" id="yaB-Fs-GDz"/>
             </constraints>
             <size key="customSize" width="306" height="264"/>
             <connections>

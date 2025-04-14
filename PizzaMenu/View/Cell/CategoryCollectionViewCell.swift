@@ -25,5 +25,5 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         categoryImageView.layer.cornerRadius = 10
     }
-
+    
 }
