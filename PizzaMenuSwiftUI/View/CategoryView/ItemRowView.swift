@@ -47,7 +47,6 @@ struct ItemRowView: View {
                 Spacer()
             }
             .background(Color(ColorConstants.lightAqua), ignoresSafeAreaEdges: .all)
-//            .background(ColorConstants.lightAqua)
             .cornerRadius(10)
             .padding([.leading,.trailing],10)
         }

@@ -8,61 +8,60 @@
 import SwiftUI
 
 struct SearchView: View {
-    
-    @Binding var text : String
+    @Binding var text: String
     var placeholder: String
     @ObservedObject var viewModel: ItemsViewModel
     @FocusState var isTextFieldFocused: Bool
     
-   
     var body: some View {
-        HStack{
-            TextField("\(StringConstants.SEARCH) \(placeholder ) .....",text: $text)
-                .focused($isTextFieldFocused)
-                .keyboardType(.asciiCapable)
-            
-                .submitLabel(.search)
-                .padding(7)
-                .padding(.horizontal,25)
-                .background(Color(ColorConstants.lightGray), ignoresSafeAreaEdges: .all)
-//                .background(ColorConstants.lightGray)
-                .cornerRadius(8)
-                .overlay (
-                    HStack{
-                        Image(systemName: ImageConstant.placeholder_image)
-                            .foregroundColor(.gray)
-                            .frame(minWidth: 0,maxWidth: .infinity,alignment: .leading)
-                            .padding(.leading,8)
-                    }
-                )
-                .padding(.horizontal,10)
-                .onTapGesture {
-                    DispatchQueue.main.async {
+        HStack {
+            HStack {
+                //  Search Icon
+                Image(systemName: ImageConstant.search)
+                    .foregroundColor(.gray)
+                
+                // Search TextField
+                TextField(placeholder, text: $text)
+                    .focused($isTextFieldFocused)
+                    .onTapGesture {
                         viewModel.isEditing = true
-                        isTextFieldFocused = true
-                        UIApplication.shared.sendAction(#selector(UIResponder.becomeFirstResponder), to: nil, from: nil, for: nil)
+                    }
+                
+                //  Clear Button
+                if !text.isEmpty {
+                    Button(action: {
+                        text = ""
+                    }) {
+                        Image(systemName: ImageConstant.cancel)
+                            .foregroundColor(.gray)
                     }
                 }
-            if viewModel.isEditing{
-                Button {
-                    viewModel.isEditing = false
-                    self.text = ""
-                    
-                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-                    
-                } label: {
-                    withAnimation(.easeIn) {
-                        Text(StringConstants.CANCEL)
-                            .tint(.black)
-                    }
-                    
-                }
-                .padding(.trailing,10)
-                .transition(.move(edge: .trailing))
             }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(Color(.systemGray6))
+            .cornerRadius(10)
             
+            // Cancel Button
+            if viewModel.isEditing {
+                Button(StringConstants.CANCEL) {
+                    text = ""
+                    viewModel.isEditing = false
+                    isTextFieldFocused = false
+                    hideKeyboard()
+                }
+                .foregroundColor(.black)
+                .transition(.move(edge: .trailing))
+                .animation(.easeInOut, value: viewModel.isEditing)
+            }
         }
-       
+        .padding(.horizontal)
     }
     
+    //  Keyboard Dismiss Helper
+    private func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
 }
+
+

@@ -13,12 +13,11 @@ final class ItemsViewModel: ObservableObject {
         case top
         case list
     }
-
+    
     @Published var categories: [CategoryModel] = []
     @Published var selectedIndex: Int = 0
     @Published var isEditing: Bool = false
     @Published var searchText: String = ""
-
     
     var reloadData: ((Bool) -> Void)?
     
@@ -48,12 +47,13 @@ final class ItemsViewModel: ObservableObject {
     }
     
     func getData() {
-        guard let rawData = FileManagerHelper.getFileContent(with: FileName.pizzaJson, and: .json),
-              let decoded: BaseModel = JsonParser.decodeJson(from: rawData, in: BaseModel.self) else {
+        guard let rawData = Bundle.main.getFileContent(named: FileName.pizzaJson, withExtension: .json),
+              let decoded: BaseModel = rawData.decode(to: BaseModel.self) else {
             categories = []
             reloadData?(false)
             return
         }
+        
         categories = decoded.data?.categories ?? []
         reloadData?(false)
     }
@@ -63,4 +63,3 @@ final class ItemsViewModel: ObservableObject {
         return categories[selectedIndex].title ?? ""
     }
 }
-

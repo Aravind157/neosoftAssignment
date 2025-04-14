@@ -1,298 +1,298 @@
 {
-  "data": {
-    "categories": [
-      {
-        "id": 1,
-        "title": "Classic Favorites",
-        "thumbnail": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza_23-2149146063.jpg",
-        "items": [
-          {
-            "id": 101,
-            "name": "Margherita",
-            "image": "https://img.freepik.com/free-photo/traditional-italian-pizza_141793-618.jpg",
-            "description": "Classic tomato sauce, fresh mozzarella, and basil on thin crust"
-          },
-          {
-            "id": 102,
-            "name": "Pepperoni",
-            "image": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza_23-2149146063.jpg",
-            "description": "Spicy pepperoni with extra cheese on traditional crust"
-          },
-          {
-            "id": 103,
-            "name": "Hawaiian",
-            "image": "https://img.freepik.com/free-photo/hawaiian-pizza_74190-5944.jpg",
-            "description": "Ham, pineapple, and mozzarella on golden crust"
-          },
-          {
-            "id": 104,
-            "name": "Meat Lovers",
-            "image": "https://img.freepik.com/free-photo/top-view-meat-pizza_23-2149146078.jpg",
-            "description": "Pepperoni, sausage, bacon, ham, and ground beef"
-          },
-          {
-            "id": 105,
-            "name": "BBQ Chicken",
-            "image": "https://img.freepik.com/free-photo/bbq-chicken-pizza_1339-8104.jpg",
-            "description": "Grilled chicken, red onions, and BBQ sauce"
-          },
-          {
-            "id": 106,
-            "name": "Four Cheese",
-            "image": "https://img.freepik.com/free-photo/four-cheese-pizza_141793-1181.jpg",
-            "description": "Mozzarella, cheddar, parmesan, and gorgonzola blend"
-          },
-          {
-            "id": 107,
-            "name": "Veggie Supreme",
-            "image": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
-            "description": "Mushrooms, bell peppers, onions, olives, and tomatoes"
-          },
-          {
-            "id": 108,
-            "name": "Buffalo Chicken",
-            "image": "https://img.freepik.com/free-photo/buffalo-chicken-pizza_1339-8105.jpg",
-            "description": "Spicy buffalo sauce, chicken, and blue cheese"
-          },
-          {
-            "id": 109,
-            "name": "White Pizza",
-            "image": "https://img.freepik.com/free-photo/white-pizza_141793-1180.jpg",
-            "description": "Ricotta, mozzarella, garlic, and olive oil base"
-          },
-          {
-            "id": 110,
-            "name": "Sausage & Mushroom",
-            "image": "https://img.freepik.com/free-photo/sausage-mushroom-pizza_141793-2179.jpg",
-            "description": "Italian sausage with wild mushrooms"
-          },
-          {
-            "id": 111,
-            "name": "Supreme",
-            "image": "https://img.freepik.com/free-photo/supreme-pizza_141793-2178.jpg",
-            "description": "Pepperoni, sausage, mushrooms, peppers, and onions"
-          }
+    "data": {
+        "categories": [
+            {
+                "id": 1,
+                "title": "Classic Favorites",
+                "thumbnail": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza_23-2149146063.jpg",
+                "items": [
+                    {
+                        "id": 101,
+                        "name": "Margherita",
+                        "image": "https://img.freepik.com/free-photo/traditional-italian-pizza_141793-618.jpg",
+                        "description": "Classic tomato sauce, fresh mozzarella, and basil on thin crust"
+                    },
+                    {
+                        "id": 102,
+                        "name": "Pepperoni",
+                        "image": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza_23-2149146063.jpg",
+                        "description": "Spicy pepperoni with extra cheese on traditional crust"
+                    },
+                    {
+                        "id": 103,
+                        "name": "Hawaiian",
+                        "image": "https://img.freepik.com/free-photo/hawaiian-pizza_74190-5944.jpg",
+                        "description": "Ham, pineapple, and mozzarella on golden crust"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Meat Lovers",
+                        "image": "https://img.freepik.com/free-photo/top-view-meat-pizza_23-2149146078.jpg",
+                        "description": "Pepperoni, sausage, bacon, ham, and ground beef"
+                    },
+                    {
+                        "id": 105,
+                        "name": "BBQ Chicken",
+                        "image": "https://img.freepik.com/free-photo/bbq-chicken-pizza_1339-8104.jpg",
+                        "description": "Grilled chicken, red onions, and BBQ sauce"
+                    },
+                    {
+                        "id": 106,
+                        "name": "Four Cheese",
+                        "image": "https://img.freepik.com/free-photo/four-cheese-pizza_141793-1181.jpg",
+                        "description": "Mozzarella, cheddar, parmesan, and gorgonzola blend"
+                    },
+                    {
+                        "id": 107,
+                        "name": "Veggie Supreme",
+                        "image": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
+                        "description": "Mushrooms, bell peppers, onions, olives, and tomatoes"
+                    },
+                    {
+                        "id": 108,
+                        "name": "Buffalo Chicken",
+                        "image": "https://img.freepik.com/free-photo/buffalo-chicken-pizza_1339-8105.jpg",
+                        "description": "Spicy buffalo sauce, chicken, and blue cheese"
+                    },
+                    {
+                        "id": 109,
+                        "name": "White Pizza",
+                        "image": "https://img.freepik.com/free-photo/white-pizza_141793-1180.jpg",
+                        "description": "Ricotta, mozzarella, garlic, and olive oil base"
+                    },
+                    {
+                        "id": 110,
+                        "name": "Sausage & Mushroom",
+                        "image": "https://img.freepik.com/free-photo/sausage-mushroom-pizza_141793-2179.jpg",
+                        "description": "Italian sausage with wild mushrooms"
+                    },
+                    {
+                        "id": 111,
+                        "name": "Supreme",
+                        "image": "https://img.freepik.com/free-photo/supreme-pizza_141793-2178.jpg",
+                        "description": "Pepperoni, sausage, mushrooms, peppers, and onions"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Gourmet Delights",
+                "thumbnail": "https://img.freepik.com/free-photo/truffle-pizza_141793-2177.jpg",
+                "items": [
+                    {
+                        "id": 201,
+                        "name": "Truffle Mushroom",
+                        "image": "https://img.freepik.com/free-photo/truffle-pizza_141793-2177.jpg",
+                        "description": "Wild mushrooms, truffle oil, and fontina cheese"
+                    },
+                    {
+                        "id": 202,
+                        "name": "Prosciutto Arugula",
+                        "image": "https://img.freepik.com/free-photo/prosciutto-arugula-pizza_141793-2176.jpg",
+                        "description": "Thin crust with prosciutto and fresh arugula"
+                    },
+                    {
+                        "id": 203,
+                        "name": "Fig & Goat Cheese",
+                        "image": "https://img.freepik.com/free-photo/fig-goat-cheese-pizza_141793-2175.jpg",
+                        "description": "Caramelized figs with herbed goat cheese"
+                    },
+                    {
+                        "id": 204,
+                        "name": "Pear & Gorgonzola",
+                        "image": "https://img.freepik.com/free-photo/pear-gorgonzola-pizza_141793-2174.jpg",
+                        "description": "Thinly sliced pears with gorgonzola and walnuts"
+                    },
+                    {
+                        "id": 205,
+                        "name": "Pesto Shrimp",
+                        "image": "https://img.freepik.com/free-photo/pesto-shrimp-pizza_141793-2173.jpg",
+                        "description": "Garlic shrimp with basil pesto and sun-dried tomatoes"
+                    },
+                    {
+                        "id": 206,
+                        "name": "Brie & Apple",
+                        "image": "https://img.freepik.com/free-photo/brie-apple-pizza_141793-2172.jpg",
+                        "description": "Creamy brie with sliced apples and honey drizzle"
+                    },
+                    {
+                        "id": 207,
+                        "name": "Duck Confit",
+                        "image": "https://img.freepik.com/free-photo/duck-confit-pizza_141793-2171.jpg",
+                        "description": "Tender duck confit with cherry compote"
+                    },
+                    {
+                        "id": 208,
+                        "name": "Lobster Bisque",
+                        "image": "https://img.freepik.com/free-photo/lobster-bisque-pizza_141793-2170.jpg",
+                        "description": "Lobster chunks in creamy bisque sauce"
+                    },
+                    {
+                        "id": 209,
+                        "name": "Crab & Artichoke",
+                        "image": "https://img.freepik.com/free-photo/crab-artichoke-pizza_141793-2169.jpg",
+                        "description": "Lump crab meat with artichoke hearts"
+                    },
+                    {
+                        "id": 210,
+                        "name": "Wild Boar Sausage",
+                        "image": "https://img.freepik.com/free-photo/wild-boar-sausage-pizza_141793-2168.jpg",
+                        "description": "Game sausage with roasted garlic"
+                    },
+                    {
+                        "id": 211,
+                        "name": "Foie Gras",
+                        "image": "https://img.freepik.com/free-photo/foie-gras-pizza_141793-2167.jpg",
+                        "description": "Seared foie gras with black truffle shavings"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Veggie Specials",
+                "thumbnail": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
+                "items": [
+                    {
+                        "id": 301,
+                        "name": "Garden Fresh",
+                        "image": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
+                        "description": "Bell peppers, onions, mushrooms, and olives"
+                    },
+                    {
+                        "id": 302,
+                        "name": "Spinach & Feta",
+                        "image": "https://img.freepik.com/free-photo/spinach-feta-pizza_141793-2183.jpg",
+                        "description": "Fresh spinach with crumbled feta cheese"
+                    },
+                    {
+                        "id": 303,
+                        "name": "Roasted Veggie",
+                        "image": "https://img.freepik.com/free-photo/roasted-veggie-pizza_141793-2182.jpg",
+                        "description": "Zucchini, eggplant, and roasted red peppers"
+                    },
+                    {
+                        "id": 304,
+                        "name": "Mediterranean",
+                        "image": "https://img.freepik.com/free-photo/mediterranean-pizza_141793-2181.jpg",
+                        "description": "Kalamata olives, sun-dried tomatoes, and artichokes"
+                    },
+                    {
+                        "id": 305,
+                        "name": "Mushroom Truffle",
+                        "image": "https://img.freepik.com/free-photo/mushroom-truffle-pizza_141793-2180.jpg",
+                        "description": "Wild mushrooms with truffle oil drizzle"
+                    },
+                    {
+                        "id": 306,
+                        "name": "Caprese",
+                        "image": "https://img.freepik.com/free-photo/caprese-pizza_141793-2179.jpg",
+                        "description": "Fresh mozzarella, tomatoes, and basil"
+                    },
+                    {
+                        "id": 307,
+                        "name": "Pesto Veggie",
+                        "image": "https://img.freepik.com/free-photo/pesto-veggie-pizza_141793-2178.jpg",
+                        "description": "Basil pesto with seasonal vegetables"
+                    },
+                    {
+                        "id": 308,
+                        "name": "Butternut Squash",
+                        "image": "https://img.freepik.com/free-photo/butternut-squash-pizza_141793-2177.jpg",
+                        "description": "Roasted squash with sage and ricotta"
+                    },
+                    {
+                        "id": 309,
+                        "name": "Eggplant Parmesan",
+                        "image": "https://img.freepik.com/free-photo/eggplant-parmesan-pizza_141793-2176.jpg",
+                        "description": "Breaded eggplant with marinara sauce"
+                    },
+                    {
+                        "id": 310,
+                        "name": "Sweet Potato",
+                        "image": "https://img.freepik.com/free-photo/sweet-potato-pizza_141793-2175.jpg",
+                        "description": "Roasted sweet potatoes with caramelized onions"
+                    },
+                    {
+                        "id": 311,
+                        "name": "Zucchini Blossom",
+                        "image": "https://img.freepik.com/free-photo/zucchini-blossom-pizza_141793-2174.jpg",
+                        "description": "Fresh zucchini flowers with light cheese"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Cheesy Overload",
+                "thumbnail": "https://img.freepik.com/free-photo/four-cheese-pizza_141793-1181.jpg",
+                "items": [
+                    {
+                        "id": 401,
+                        "name": "Five Cheese Blend",
+                        "image": "https://img.freepik.com/free-photo/five-cheese-pizza_141793-1180.jpg",
+                        "description": "Mozzarella, provolone, fontina, parmesan, and asiago"
+                    },
+                    {
+                        "id": 402,
+                        "name": "Cheese Stuffed Crust",
+                        "image": "https://img.freepik.com/free-photo/cheese-stuffed-crust-pizza_141793-1179.jpg",
+                        "description": "Mozzarella-filled crust with extra cheese topping"
+                    },
+                    {
+                        "id": 403,
+                        "name": "Triple Cheese Bomb",
+                        "image": "https://img.freepik.com/free-photo/triple-cheese-pizza_141793-1178.jpg",
+                        "description": "Cheese-stuffed crust with cheese sauce and toppings"
+                    },
+                    {
+                        "id": 404,
+                        "name": "Mac & Cheese Pizza",
+                        "image": "https://img.freepik.com/free-photo/mac-cheese-pizza_141793-1177.jpg",
+                        "description": "Creamy macaroni and cheese on pizza dough"
+                    },
+                    {
+                        "id": 405,
+                        "name": "Blue Cheese Walnut",
+                        "image": "https://img.freepik.com/free-photo/blue-cheese-walnut-pizza_141793-1176.jpg",
+                        "description": "Tangy blue cheese with candied walnuts"
+                    },
+                    {
+                        "id": 406,
+                        "name": "Cheese Lovers",
+                        "image": "https://img.freepik.com/free-photo/cheese-lovers-pizza_141793-1175.jpg",
+                        "description": "Double cheese on both crust and toppings"
+                    },
+                    {
+                        "id": 407,
+                        "name": "Ricotta Stuffed",
+                        "image": "https://img.freepik.com/free-photo/ricotta-stuffed-pizza_141793-1174.jpg",
+                        "description": "Pockets of ricotta cheese throughout"
+                    },
+                    {
+                        "id": 408,
+                        "name": "Cheese Fondue Pizza",
+                        "image": "https://img.freepik.com/free-photo/cheese-fondue-pizza_141793-1173.jpg",
+                        "description": "Swiss-style melted cheese topping"
+                    },
+                    {
+                        "id": 409,
+                        "name": "Burrata Bliss",
+                        "image": "https://img.freepik.com/free-photo/burrata-pizza_141793-1172.jpg",
+                        "description": "Fresh burrata cheese with cherry tomatoes"
+                    },
+                    {
+                        "id": 410,
+                        "name": "Cheddar Bacon",
+                        "image": "https://img.freepik.com/free-photo/cheddar-bacon-pizza_141793-1171.jpg",
+                        "description": "Sharp cheddar with crispy bacon bits"
+                    },
+                    {
+                        "id": 411,
+                        "name": "Cheese Volcano",
+                        "image": "https://img.freepik.com/free-photo/cheese-volcano-pizza_141793-1170.jpg",
+                        "description": "Mozzarella lava flow with parmesan crust"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "id": 2,
-        "title": "Gourmet Delights",
-        "thumbnail": "https://img.freepik.com/free-photo/truffle-pizza_141793-2177.jpg",
-        "items": [
-          {
-            "id": 201,
-            "name": "Truffle Mushroom",
-            "image": "https://img.freepik.com/free-photo/truffle-pizza_141793-2177.jpg",
-            "description": "Wild mushrooms, truffle oil, and fontina cheese"
-          },
-          {
-            "id": 202,
-            "name": "Prosciutto Arugula",
-            "image": "https://img.freepik.com/free-photo/prosciutto-arugula-pizza_141793-2176.jpg",
-            "description": "Thin crust with prosciutto and fresh arugula"
-          },
-          {
-            "id": 203,
-            "name": "Fig & Goat Cheese",
-            "image": "https://img.freepik.com/free-photo/fig-goat-cheese-pizza_141793-2175.jpg",
-            "description": "Caramelized figs with herbed goat cheese"
-          },
-          {
-            "id": 204,
-            "name": "Pear & Gorgonzola",
-            "image": "https://img.freepik.com/free-photo/pear-gorgonzola-pizza_141793-2174.jpg",
-            "description": "Thinly sliced pears with gorgonzola and walnuts"
-          },
-          {
-            "id": 205,
-            "name": "Pesto Shrimp",
-            "image": "https://img.freepik.com/free-photo/pesto-shrimp-pizza_141793-2173.jpg",
-            "description": "Garlic shrimp with basil pesto and sun-dried tomatoes"
-          },
-          {
-            "id": 206,
-            "name": "Brie & Apple",
-            "image": "https://img.freepik.com/free-photo/brie-apple-pizza_141793-2172.jpg",
-            "description": "Creamy brie with sliced apples and honey drizzle"
-          },
-          {
-            "id": 207,
-            "name": "Duck Confit",
-            "image": "https://img.freepik.com/free-photo/duck-confit-pizza_141793-2171.jpg",
-            "description": "Tender duck confit with cherry compote"
-          },
-          {
-            "id": 208,
-            "name": "Lobster Bisque",
-            "image": "https://img.freepik.com/free-photo/lobster-bisque-pizza_141793-2170.jpg",
-            "description": "Lobster chunks in creamy bisque sauce"
-          },
-          {
-            "id": 209,
-            "name": "Crab & Artichoke",
-            "image": "https://img.freepik.com/free-photo/crab-artichoke-pizza_141793-2169.jpg",
-            "description": "Lump crab meat with artichoke hearts"
-          },
-          {
-            "id": 210,
-            "name": "Wild Boar Sausage",
-            "image": "https://img.freepik.com/free-photo/wild-boar-sausage-pizza_141793-2168.jpg",
-            "description": "Game sausage with roasted garlic"
-          },
-          {
-            "id": 211,
-            "name": "Foie Gras",
-            "image": "https://img.freepik.com/free-photo/foie-gras-pizza_141793-2167.jpg",
-            "description": "Seared foie gras with black truffle shavings"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Veggie Specials",
-        "thumbnail": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
-        "items": [
-          {
-            "id": 301,
-            "name": "Garden Fresh",
-            "image": "https://img.freepik.com/free-photo/vegetarian-pizza_141793-2184.jpg",
-            "description": "Bell peppers, onions, mushrooms, and olives"
-          },
-          {
-            "id": 302,
-            "name": "Spinach & Feta",
-            "image": "https://img.freepik.com/free-photo/spinach-feta-pizza_141793-2183.jpg",
-            "description": "Fresh spinach with crumbled feta cheese"
-          },
-          {
-            "id": 303,
-            "name": "Roasted Veggie",
-            "image": "https://img.freepik.com/free-photo/roasted-veggie-pizza_141793-2182.jpg",
-            "description": "Zucchini, eggplant, and roasted red peppers"
-          },
-          {
-            "id": 304,
-            "name": "Mediterranean",
-            "image": "https://img.freepik.com/free-photo/mediterranean-pizza_141793-2181.jpg",
-            "description": "Kalamata olives, sun-dried tomatoes, and artichokes"
-          },
-          {
-            "id": 305,
-            "name": "Mushroom Truffle",
-            "image": "https://img.freepik.com/free-photo/mushroom-truffle-pizza_141793-2180.jpg",
-            "description": "Wild mushrooms with truffle oil drizzle"
-          },
-          {
-            "id": 306,
-            "name": "Caprese",
-            "image": "https://img.freepik.com/free-photo/caprese-pizza_141793-2179.jpg",
-            "description": "Fresh mozzarella, tomatoes, and basil"
-          },
-          {
-            "id": 307,
-            "name": "Pesto Veggie",
-            "image": "https://img.freepik.com/free-photo/pesto-veggie-pizza_141793-2178.jpg",
-            "description": "Basil pesto with seasonal vegetables"
-          },
-          {
-            "id": 308,
-            "name": "Butternut Squash",
-            "image": "https://img.freepik.com/free-photo/butternut-squash-pizza_141793-2177.jpg",
-            "description": "Roasted squash with sage and ricotta"
-          },
-          {
-            "id": 309,
-            "name": "Eggplant Parmesan",
-            "image": "https://img.freepik.com/free-photo/eggplant-parmesan-pizza_141793-2176.jpg",
-            "description": "Breaded eggplant with marinara sauce"
-          },
-          {
-            "id": 310,
-            "name": "Sweet Potato",
-            "image": "https://img.freepik.com/free-photo/sweet-potato-pizza_141793-2175.jpg",
-            "description": "Roasted sweet potatoes with caramelized onions"
-          },
-          {
-            "id": 311,
-            "name": "Zucchini Blossom",
-            "image": "https://img.freepik.com/free-photo/zucchini-blossom-pizza_141793-2174.jpg",
-            "description": "Fresh zucchini flowers with light cheese"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Cheesy Overload",
-        "thumbnail": "https://img.freepik.com/free-photo/four-cheese-pizza_141793-1181.jpg",
-        "items": [
-          {
-            "id": 401,
-            "name": "Five Cheese Blend",
-            "image": "https://img.freepik.com/free-photo/five-cheese-pizza_141793-1180.jpg",
-            "description": "Mozzarella, provolone, fontina, parmesan, and asiago"
-          },
-          {
-            "id": 402,
-            "name": "Cheese Stuffed Crust",
-            "image": "https://img.freepik.com/free-photo/cheese-stuffed-crust-pizza_141793-1179.jpg",
-            "description": "Mozzarella-filled crust with extra cheese topping"
-          },
-          {
-            "id": 403,
-            "name": "Triple Cheese Bomb",
-            "image": "https://img.freepik.com/free-photo/triple-cheese-pizza_141793-1178.jpg",
-            "description": "Cheese-stuffed crust with cheese sauce and toppings"
-          },
-          {
-            "id": 404,
-            "name": "Mac & Cheese Pizza",
-            "image": "https://img.freepik.com/free-photo/mac-cheese-pizza_141793-1177.jpg",
-            "description": "Creamy macaroni and cheese on pizza dough"
-          },
-          {
-            "id": 405,
-            "name": "Blue Cheese Walnut",
-            "image": "https://img.freepik.com/free-photo/blue-cheese-walnut-pizza_141793-1176.jpg",
-            "description": "Tangy blue cheese with candied walnuts"
-          },
-          {
-            "id": 406,
-            "name": "Cheese Lovers",
-            "image": "https://img.freepik.com/free-photo/cheese-lovers-pizza_141793-1175.jpg",
-            "description": "Double cheese on both crust and toppings"
-          },
-          {
-            "id": 407,
-            "name": "Ricotta Stuffed",
-            "image": "https://img.freepik.com/free-photo/ricotta-stuffed-pizza_141793-1174.jpg",
-            "description": "Pockets of ricotta cheese throughout"
-          },
-          {
-            "id": 408,
-            "name": "Cheese Fondue Pizza",
-            "image": "https://img.freepik.com/free-photo/cheese-fondue-pizza_141793-1173.jpg",
-            "description": "Swiss-style melted cheese topping"
-          },
-          {
-            "id": 409,
-            "name": "Burrata Bliss",
-            "image": "https://img.freepik.com/free-photo/burrata-pizza_141793-1172.jpg",
-            "description": "Fresh burrata cheese with cherry tomatoes"
-          },
-          {
-            "id": 410,
-            "name": "Cheddar Bacon",
-            "image": "https://img.freepik.com/free-photo/cheddar-bacon-pizza_141793-1171.jpg",
-            "description": "Sharp cheddar with crispy bacon bits"
-          },
-          {
-            "id": 411,
-            "name": "Cheese Volcano",
-            "image": "https://img.freepik.com/free-photo/cheese-volcano-pizza_141793-1170.jpg",
-            "description": "Mozzarella lava flow with parmesan crust"
-          }
-        ]
-      }
-    ]
-  }
+    }
 }

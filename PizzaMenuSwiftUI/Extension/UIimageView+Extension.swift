@@ -1,19 +1,18 @@
 //
-//  Constants.swift
-//  PizzaMenu
+//  UIimageView+Extension.swift
+//  PizzaMenuSwiftUI
 //
-//  Created by aravind  yadav on 09/04/25.
+//  Created by aravind  yadav on 14/04/25.
 //
 
-
+import Foundation
 import UIKit
-
 extension UIImageView {
     
     private func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
         URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
-
+    
     func setImage(from url: URL, placeholder: UIImage? = nil) {
         self.image = placeholder
         getData(from: url) { [weak self] data, _, error in
@@ -23,7 +22,7 @@ extension UIImageView {
                 }
                 return
             }
-
+            
             DispatchQueue.main.async {
                 self.image = image
             }

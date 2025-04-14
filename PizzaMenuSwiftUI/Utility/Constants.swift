@@ -23,6 +23,11 @@ enum StringConstants {
 
 enum ImageConstant {
     static let placeholder_image = "placeholder_image"
+    static let ellipsis = "ellipsis"
+    static let search = "magnifyingglass"
+    static let cancel = "xmark.circle.fill"
+    static let ellipsis_vertical = "menu"
+
     
     
 }
@@ -34,11 +39,3 @@ enum FileName {
 enum FileFormat: String{
     case json = "json"
 }
-
-enum Identifier {
-    static let CategoryCollectionViewCell =  "CategoryCollectionViewCell"
-    static let searchView =  "SearchView"
-    static let CategoryTableViewCell =  "CategoryTableViewCell"
-    static let ItemListTableViewCell = "ItemListTableViewCell"
-}
-

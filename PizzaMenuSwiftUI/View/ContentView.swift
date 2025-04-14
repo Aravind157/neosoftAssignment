@@ -23,7 +23,7 @@ struct ContentView: View {
                                     VStack(spacing: 10) {
                                         TabView(selection: $viewModel.selectedIndex) {
                                             ForEach(viewModel.categories.indices, id: \.self) { index in
-                                                CategoryRowView(url: viewModel.categories[index].thumbnail ?? "")
+                                                CategoryRowView(urlString: viewModel.categories[index].thumbnail ?? "")
                                                     .tag(index)
                                             }
                                         }
@@ -37,12 +37,15 @@ struct ContentView: View {
                                                     .fill(viewModel.selectedIndex == index ? Color.blue : Color.gray)
                                                     .frame(width: 8, height: 8)
                                                     .onTapGesture {
-                                                        viewModel.selectedIndex = index
+                                                        withAnimation {
+                                                            viewModel.selectedIndex = index
+                                                        }
                                                     }
                                             }
                                             Spacer()
                                         }
                                     }
+                                    
                                 } header: {
                                     EmptyView()
                                 }
@@ -67,14 +70,14 @@ struct ContentView: View {
                 }
                 
                 // Floating Button
-                VStack {
+                VStack{
                     Spacer()
                     HStack {
                         Spacer()
                         Button {
                             floatingViewExpanded.toggle()
                         } label: {
-                            Image(systemName: "ellipsis")
+                            Image(ImageConstant.ellipsis_vertical)
                                 .font(.subheadline)
                                 .foregroundColor(.white)
                                 .frame(width: 50, height: 50)

@@ -11,7 +11,7 @@ class JsonParser {
         do {
             return try JSONDecoder().decode(T.self, from: data)
         } catch {
-            print("❌ JSON Decode Error: \(error)")
+            print("\(error)")
             return nil
         }
     }
